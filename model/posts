@@ -1,0 +1,11 @@
+id
+title
+cover
+description
+content
+user_id
+created_at
+updated_at
+slug
+category_id
+online
