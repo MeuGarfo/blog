@@ -32,9 +32,12 @@ small,small a, .hamburguer{
 }
 .content iframe,.content img{
     background:#f6f6f6;
-    display:block;
     padding:10px;
     max-width:calc(100% - 20px);
+    text-align:center;
+}
+.content iframe{
+    display:block;
     margin:0 auto;
 }
 .content img{
