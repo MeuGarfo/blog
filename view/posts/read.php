@@ -8,8 +8,7 @@ if ($user) {
 $postCreatedAt=strftime("%d/%b/%Y %H:%M", $post['created_at']);
 $postCreatedAt=ucfirst($postCreatedAt);
 $data['content']=<<<heredoc
-<p class="left"><small>
-<a href="/">Início</a> | {$updateLink}{$postCreatedAt}</small></p>
+<p class="left"><small>{$updateLink}{$postCreatedAt}</small></p>
 <h2>{$post['title']}</h2>
 <div class="content">
 {$post['content']}
