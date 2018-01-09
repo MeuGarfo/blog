@@ -48,6 +48,7 @@ small,small a, .hamburguer{
     color:green;
 }
 .hamburguer{
+    display: block;
     max-width: calc(100px - 2px);
 }
 .hide{
