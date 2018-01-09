@@ -27,7 +27,7 @@ if (!isset($_ENV['site_name'])) {
     <link rel="apple-touch-icon" href="/file/logo180.png" sizes="180x180">
     <link rel="icon" href="/file/logo32.png" sizes="32x32" type="image/png">
     <link rel="icon" href="/file/logo16.png" sizes="16x16" type="image/png">
-    <link rel="icon" href="<?php print $_ENV['site_url'];?>/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@<?php print $_ENV['twitter_site'];?>" />
     <meta name="twitter:creator" content="@<?php print $_ENV['twitter_creator'];?>" />
@@ -64,7 +64,10 @@ if (!isset($_ENV['site_name'])) {
         </div>
         <div class="r">
             <div class="g2 center">
-                <script type="text/javascript">
+                <p><small class="hamburguer">
+                        &#x2630; Menu
+                </small></p>
+                <script>
                 var hide=true;
                 function showMenu(){
                     if(hide){
@@ -76,12 +79,10 @@ if (!isset($_ENV['site_name'])) {
                     }
                     $('#menuPrincipal').toggle();
                 }
+                $('.hamburguer').click(function(){
+                    showMenu();
+                });
                 </script>
-                <p><small>
-                    <a onclick="javascript:showMenu();" class="hamburguer">
-                        &#x2630; Menu
-                    </a>
-                </small></p>
                 <ul id="menuPrincipal" class="lista">
                     <li><a href="/">Início</a></li>
                     <li><a href="https://facebook.com/<?php print $_ENV['facebook'];?>">Facebook</a></li>

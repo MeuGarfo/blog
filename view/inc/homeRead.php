@@ -19,7 +19,7 @@ if (isset($posts) && is_array($posts) && count($posts)>0) {
     print 'Nenhum post encontrado';
 }
 ?>
-<script type="text/javascript">
+<script>
 function myFunction() {
     //https://www.w3schools.com/howto/howto_js_filter_lists.asp
     var input, filter, ul, li, a, i;
