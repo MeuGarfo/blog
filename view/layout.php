@@ -64,9 +64,25 @@ if (!isset($_ENV['site_name'])) {
         </div>
         <div class="r">
             <div class="g2 center">
-                <hr class="mobile">
-                <small>Opções</small>
-                <ul class="lista">
+                <script type="text/javascript">
+                var hide=true;
+                function showMenu(){
+                    if(hide){
+                        hide=false;
+                        $('.hamburguer').html('X Menu');
+                    }else{
+                        hide=true;
+                        $('.hamburguer').html('&#x2630; Menu');
+                    }
+                    $('#menuPrincipal').toggle();
+                }
+                </script>
+                <small>
+                    <a href="javascript:showMenu();" class="hamburguer">
+                        &#x2630; Menu
+                    </a>
+                </small>
+                <ul id="menuPrincipal" class="lista">
                     <li><a href="/">Início</a></li>
                     <li><a href="https://facebook.com/<?php print $_ENV['facebook'];?>">Facebook</a></li>
                     <li><a href="https://github.com/<?php print $_ENV['github'];?>">Github</a></li>

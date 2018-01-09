@@ -16,8 +16,9 @@ input,select{
 select{
     width: calc(100% - 8px);
 }
-small{
+small,small a, .hamburguer{
     color:gray;
+    text-decoration: none;
 }
 /*Classes*/
 .btn-group{
@@ -147,6 +148,9 @@ small{
         display:none;
         visibility:hidden;
     }
+    #menuPrincipal{
+        display: block;
+    }
 }
 /*mobile*/
 @media ( max-width : 1024px) {
@@ -156,5 +160,8 @@ small{
     .desktop{
         display:none;
         visibility:hidden;
+    }
+    #menuPrincipal{
+        display: none;
     }
 }
