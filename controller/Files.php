@@ -117,9 +117,27 @@ class Files
         if ($this->user) {
             $filename=ROOT.'file/'.$_GET['name'];
             unlink($filename);
+            $dir=ROOT.'image/'.$_GET['name'];
+            if(is_dir($dir)){
+                $this->unlinkr($dir);
+            }
             $this->view->json(['response'=>'ok']);
         } else {
             $this->view->json(['response'=>'error']);
         }
+    }
+    public function unlinkr($dir) { 
+        if (is_dir($dir)) { 
+         $objects = scandir($dir); 
+         foreach ($objects as $object) { 
+           if ($object != "." && $object != "..") { 
+             if (is_dir($dir."/".$object))
+               rrmdir($dir."/".$object);
+             else
+               unlink($dir."/".$object); 
+           } 
+         }
+         rmdir($dir); 
+        } 
     }
 }
