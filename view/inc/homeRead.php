@@ -6,7 +6,7 @@ if (isset($posts) && is_array($posts) && count($posts)>0) {
     print '<ul class="lista" id="myUL">';
     foreach ($posts as $post) {
         $postRead='/posts/'.$post['slug'].'/'.$post['id'];
-        $postCreatedAt=strftime("%d/%b/%Y %H:%M", $post['created_at']);
+        $postCreatedAt=strftime("%d/%b/%Y %H:%M:%S", $post['created_at']);
         $postCreatedAt=ucfirst($postCreatedAt);
         print '<li>';
         print '<a href="'.$postRead.'">';
