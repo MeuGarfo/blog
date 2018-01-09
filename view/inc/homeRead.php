@@ -1,4 +1,6 @@
+<p>
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar post">
+</p>
 <?php
 if (isset($posts) && is_array($posts) && count($posts)>0) {
     print '<ul class="lista" id="myUL">';
