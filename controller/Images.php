@@ -40,6 +40,9 @@ class Images
                 case 400:
                 $server->outputImage($path, ['w' => 400,'h'=>400]);
                 break;
+                case 'cover':
+                $server->outputImage($path, ['w' => 1200,'h'=>1200]);
+                break;
                 case 'original':
                 $this->view->redirect('/file/'.$path);
                 break;
