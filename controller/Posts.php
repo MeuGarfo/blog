@@ -74,7 +74,7 @@ class Posts
     public function getRead()
     {
         /*VARs*/
-       $where=[
+        $where = [
             'id'=>$this->id
         ];
         $data['user']=$this->auth->isAuth();
@@ -82,15 +82,15 @@ class Posts
         $data['view']=$this->view;
         /*RULEs*/
         if (is_numeric($this->id) && $data['post'] && @$data['post']['online']=='1') {
-            if($this->slug==$data['post']['slug']){
-                $this->view->out('posts/read', $data);            
-            }else{
+            if ($this->slug==$data['post']['slug']) {
+                $this->view->out('posts/read', $data);
+            } else {
                 $url='/posts/'.$data['post']['slug'].'/'.$data['post']['id'];
                 $this->view->redirect($url);
             }
         } else {
             $this->view->out('404');
-        }    
+        }
     }
     public function getUpdate()
     {
