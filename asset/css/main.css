@@ -47,6 +47,9 @@ small,small a, .hamburguer{
 .green{
     color:green;
 }
+.hamburguer{
+    cursor:pointer;
+}
 .hide{
     display: none;
 }

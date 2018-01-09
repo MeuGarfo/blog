@@ -78,7 +78,7 @@ if (!isset($_ENV['site_name'])) {
                 }
                 </script>
                 <p><small>
-                    <a href="javascript:showMenu();" class="hamburguer">
+                    <a onclick="javascript:showMenu();" class="hamburguer">
                         &#x2630; Menu
                     </a>
                 </small></p>
