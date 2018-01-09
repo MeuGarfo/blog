@@ -29,13 +29,15 @@ small{
     margin:0;
     padding: 0.1em;
 }
-.content img{
+.content iframe,.content img{
     background:#f6f6f6;
     display:block;
     padding:10px;
-    max-height: 400px;
     max-width:calc(100% - 20px);
     margin:0 auto;
+}
+.content img{
+    max-height: 400px;
     width: 400px;
 }
 .content a:hover img{
