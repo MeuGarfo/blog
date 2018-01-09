@@ -80,7 +80,9 @@ if (!isset($_ENV['site_name'])) {
                     $('#menuPrincipal').toggle();
                 }
                 $('.hamburguer').click(function(){
-                    showMenu();
+                    if($( document ).width()<1024){
+                        showMenu();
+                    }
                 });
                 </script>
                 <ul id="menuPrincipal" class="lista">
