@@ -130,7 +130,11 @@ class Posts
         if ($data['user']) {
             $this->db->insert('posts', $post);
             $id=$this->db->id();
-            $url='/posts/'.$post['slug'].'/'.$id;
+            if ($post['online']=='1') {
+                $url='/posts/'.$post['slug'].'/'.$id;
+            } else {
+                $url='/posts/'.$post['slug'].'/'.$id.'?update';
+            }
             $data['view']->redirect($url);
         } else {
             $data['view']->redirect('/signin', $data);
@@ -153,10 +157,10 @@ class Posts
             $this->db->update('posts', $post, $where);
             if ($post['online']=='1') {
                 $url='/posts/'.$post['slug'].'/'.$post['id'];
-                $this->view->redirect($url);
             } else {
-                $this->view->redirect('/posts');
+                $url='/posts/'.$post['slug'].'/'.$post['id'].'/?update';
             }
+            $this->view->redirect($url);
         } else {
             $this->view->redirect('/signin');
         }
