@@ -77,11 +77,11 @@ if (!isset($_ENV['site_name'])) {
                     $('#menuPrincipal').toggle();
                 }
                 </script>
-                <small>
+                <p><small>
                     <a href="javascript:showMenu();" class="hamburguer">
                         &#x2630; Menu
                     </a>
-                </small>
+                </small></p>
                 <ul id="menuPrincipal" class="lista">
                     <li><a href="/">Início</a></li>
                     <li><a href="https://facebook.com/<?php print $_ENV['facebook'];?>">Facebook</a></li>
