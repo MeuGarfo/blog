@@ -15,8 +15,9 @@ if (isset($posts) && is_array($posts) && count($posts)>0) {
             print ' <b class="green">ON</b> |';
         } else {
             print ' <b class="red">OFF</b> |';
+            $update='?update';
         }
-        print ' <a href="'.$postRead.'">'.$post['title'].'</a>';
+        print ' <a href="'.$postRead.@$update.'">'.$post['title'].'</a>';
         print '</li>'.PHP_EOL;
     }
     print '</ul>';
