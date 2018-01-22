@@ -4,7 +4,7 @@
         print '<input type="hidden" name="id" value="'.$post['id'].'" />';
     }
     ?>
-    <input type="text" name="title" id="title" tabindex="1" value="<?php print @$post['title']; ?>" placeholder="Titulo">
+    <input type="text" name="title" maxlength="60" id="title" tabindex="1" value="<?php print @$post['title']; ?>" placeholder="Titulo">
     <input type="text" name="description" tabindex="1" value="<?php print @$post['description']; ?>" placeholder="Descrição">
     <input type="text" name="cover" tabindex="1" value="<?php print @$post['cover']; ?>" placeholder="Imagem de exibição">
     <input type="hidden" name="category_id" value="1">
@@ -23,12 +23,12 @@
     <div class="well content" id="editor" contenteditable="true" tabindex="2"><?php print @$post['content'];?></div>
     <input type="hidden" name="content" id="content">
     <select name="online">
-        <option value="1" <?php if (@$post['online']=='1') {
+        <option value="1" <?php if (@$post['online'] == '1') {
         print 'selected';
-    } ?>>Online</option>
-        <option value="0" <?php if (@$post['online']=='0') {
+    }?>>Online</option>
+        <option value="0" <?php if (@$post['online'] == '0') {
         print 'selected';
-    } ?>>Offline</option>
+    }?>>Offline</option>
     </select>
     <div class="btn-group">
         <input type="submit" value="<?php print $title; ?>" tabindex="3">
