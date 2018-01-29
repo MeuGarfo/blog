@@ -29,6 +29,9 @@
         <option value="0" <?php if (@$post['online'] == '0') {
         print 'selected';
     }?>>Offline</option>
+        <option value="2" <?php if (@$post['online'] == '2') {
+        print 'selected';
+    }?>>Oculto</option>
     </select>
     <div class="btn-group">
         <input type="submit" value="<?php print $title; ?>" tabindex="3">
