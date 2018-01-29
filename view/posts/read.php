@@ -23,7 +23,7 @@ $data['content']=<<<heredoc
 {$post['content']}
 </div>
 <div id="comments" class="center desktop">
-<div class="fb-comments" data-href="{$_ENV['site_url']}{$shareLink}" data-numposts="5"></div>
+<div data-width="100%" class="fb-comments" data-href="{$_ENV['site_url']}{$shareLink}" data-numposts="5"></div>
 </div>
 heredoc;
 $view->view('layout', $data);
