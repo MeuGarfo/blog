@@ -11,10 +11,12 @@ if (isset($posts) && is_array($posts) && count($posts)>0) {
         print '<li>';
         print '<a href="'.$postUpdate.'">Editar</a> |';
         print ' <a class="postDeleteLink" href="'.$postDelete.'">Apagar</a> |';
-        if ($post['online'] || $post['online']=='2') {
-            print ' <b class="green">ON</b> |';
+        if ($post['online']=='1') {
+            print ' <b class="green">ONLINE</b> |';
+        } elseif ($post['online']=='2') {
+            print ' <b class="green">OCULTO</b> |';
         } else {
-            print ' <b class="red">OFF</b> |';
+            print ' <b class="red">OFFLINE</b> |';
             $update='?update';
         }
         print ' <a href="'.$postRead.@$update.'">'.$post['title'].'</a>';
