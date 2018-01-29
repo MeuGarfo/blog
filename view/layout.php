@@ -88,10 +88,6 @@ if (!isset($_ENV['site_name'])) {
                 </script>
                 <ul id="menuPrincipal" class="lista">
                     <li><a href="/">Início</a></li>
-                    <li><a href="https://facebook.com/<?php print $_ENV['facebook'];?>">Facebook</a></li>
-                    <li><a href="https://github.com/<?php print $_ENV['github'];?>">Github</a></li>
-                    <li><a href="https://twitter.com/<?php print $_ENV['twitter_site'];?>">Twitter</a></li>
-                    <li><a href="https://pinterest.com/<?php print $_ENV['pinterest'];?>">Pinterest</a></li>
                     <li><a href="/feed">RSS</a></li>
                     <?php
                     if (isset($user) && is_array($user)) {
