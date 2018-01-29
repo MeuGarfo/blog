@@ -105,6 +105,11 @@ if (!isset($_ENV['site_name'])) {
                 <?php print $content; ?>
             </div>
         </div>
+        <div class="r">
+            <div class="g12 center">
+                <p>O código fonte deste blog está no <a href="https://github.com/hackergaucho/blog">Github</a></p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
