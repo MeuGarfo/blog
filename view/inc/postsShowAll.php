@@ -9,8 +9,6 @@ if (isset($posts) && is_array($posts) && count($posts)>0) {
         $postUpdate=$postRead.'?update';
         $postDelete='javascript:postDelete(\''.$post['id'].'\',\''.$post['title'].'\');';
         print '<li>';
-        print '<a href="'.$postUpdate.'">Editar</a> |';
-        print ' <a class="postDeleteLink" href="'.$postDelete.'">Apagar</a> |';
         if ($post['online']=='1') {
             print ' <b class="green">ON</b> |';
         } elseif ($post['online']=='2') {
@@ -19,6 +17,8 @@ if (isset($posts) && is_array($posts) && count($posts)>0) {
             print ' <b class="red">OF</b> |';
             $update='?update';
         }
+        print '<a href="'.$postUpdate.'">Editar</a> |';
+        print ' <a class="postDeleteLink" href="'.$postDelete.'">Apagar</a> |';
         print ' <a href="'.$postRead.@$update.'">'.$post['title'].'</a>';
         print '</li>'.PHP_EOL;
     }
