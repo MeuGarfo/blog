@@ -32,6 +32,7 @@ if (!isset($_ENV['site_name'])) {
     <meta name="twitter:site" content="@<?php print $_ENV['twitter_site'];?>" />
     <meta name="twitter:creator" content="@<?php print $_ENV['twitter_creator'];?>" />
     <meta name="twitter:title" content="<?php print $title; ?>" />
+    <meta property="fb:admins" content="519320351468421"/><!--hg-->
     <meta property="og:url" content="<?php
     if (isset($post)) {
         $url=$_ENV['site_url'].'/posts/'.$post['slug'].'/'.$post['id'];
