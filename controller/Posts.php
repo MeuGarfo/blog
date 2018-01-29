@@ -81,7 +81,7 @@ class Posts
         $data['post']=$this->db->get('posts', '*', $where);
         $data['view']=$this->view;
         /*RULEs*/
-        if (is_numeric($this->id) && $data['post'] && @$data['post']['online']=='1') {
+        if (is_numeric($this->id) && $data['post'] && @$data['post']['online']>'0') {
             if ($this->slug==$data['post']['slug']) {
                 $this->view->out('posts/read', $data);
             } else {
