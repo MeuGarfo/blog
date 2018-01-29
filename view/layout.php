@@ -63,7 +63,7 @@ if (!isset($_ENV['site_name'])) {
             </div>
         </div>
         <div class="r">
-            <div class="g2 center">
+            <div class="g3 center">
                 <p><small class="hamburguer">
                         &#x2630; Menu
                 </small></p>
@@ -101,8 +101,11 @@ if (!isset($_ENV['site_name'])) {
                     ?>
                 </ul>
             </div>
-            <div class="g10">
+            <div class="g6">
                 <?php print $content; ?>
+            </div>
+            <div class="g3 center desktop">
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fhackergaucho&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden;max-width:100%" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
             </div>
         </div>
         <div class="r">

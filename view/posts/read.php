@@ -10,7 +10,7 @@ $postCreatedAt=ucfirst($postCreatedAt);
 $data['content']=<<<heredoc
 <p class="left"><small>{$updateLink}{$postCreatedAt}</small></p>
 <h2>{$post['title']}</h2>
-<div class="content">
+<div class="content" id="post">
 {$post['content']}
 </div>
 heredoc;
