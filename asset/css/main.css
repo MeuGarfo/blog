@@ -88,6 +88,9 @@ small,small a, .hamburguer{
 .nav a small{
     color:#333;
 }
+.orange{
+    color:orange;
+}
 .post > .content{
     margin-top: 1em;
 }

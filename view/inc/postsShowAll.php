@@ -10,11 +10,11 @@ if (isset($posts) && is_array($posts) && count($posts)>0) {
         $postDelete='javascript:postDelete(\''.$post['id'].'\',\''.$post['title'].'\');';
         print '<li>';
         if ($post['online']=='1') {
-            print ' <b class="green">ON</b> | ';
+            print ' <b class="green">&#x2714;</b> | ';
         } elseif ($post['online']=='2') {
-            print ' <b class="green">OC</b> | ';
+            print ' <b class="orange">&#x2705;</b> | ';
         } else {
-            print ' <b class="red">OF</b> | ';
+            print ' <b class="red">&#x2718;</b> | ';
             $update='?update';
         }
         print '<a href="'.$postUpdate.'">Editar</a> | ';
