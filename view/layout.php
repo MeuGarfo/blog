@@ -104,7 +104,7 @@ if (!isset($_ENV['site_name'])) {
             } else {
                 print '<div class="g6">'.$content.'</div>';
                 print '<div class="g3 center desktop">';
-                print '<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fhackergaucho&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden;max-width:100%" scrolling="no" frameborder="0" allowTransparency="true"></iframe>';
+                print '<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fhackergaucho&tabs=timeline&width=312&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="312" height="500" style="border:none;overflow-x:hidden;overflow-y:auto;max-width:100%; margin:0 auto;display:block;" scrolling="yes" frameborder="0" allowTransparency="true"></iframe>';
                 print '</div>';
             }
                 ?>
