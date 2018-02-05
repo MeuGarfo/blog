@@ -99,7 +99,7 @@ if (!isset($_ENV['site_name'])) {
                 </ul>
             </div>
             <?php
-            if ($view->segment()[0]=='signin' || isset($user) && is_array($user)) {
+            if ($view->segment()[0]=='signin' || @is_array($user)) {
                 print '<div class="g9">'.$content.'</div>';
             } else {
                 print '<div class="g6">'.$content.'</div>';
