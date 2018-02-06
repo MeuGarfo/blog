@@ -104,7 +104,7 @@ if (!isset($_ENV['site_name'])) {
             } else {
                 print '<div class="g6">'.$content.'</div>';
                 print '<div class="g3 center desktop">';
-                print '<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F'.$_ENV['fb_page'].'&tabs=timeline&width=312&height=450&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="312" height="450" style="border:none;overflow:hidden;overflow-y:auto;max-width:100%" scrolling="yes" frameborder="0" allowTransparency="true"></iframe>';
+                print '<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F'.$_ENV['fb_page'].'&tabs=timeline&width=312&height=450&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="312" height="450" style="border:none;overflow:hidden;overflow-y:auto;max-width:100%" scrolling="yes" frameborder="0" allowTransparency="true"></iframe>';
                 print '</div>';
             }
                 ?>
