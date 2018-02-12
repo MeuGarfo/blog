@@ -13,7 +13,7 @@ $data['content']=<<<heredoc
 <h2>{$post['title']}</h2>
 <div class="content" id="post">
 {$post['content']}
-<h3 class="center">Gostou? Compartilhe!</h3>
+<h3 class="center">Compartilhar</h3>
 </div>
 heredoc;
 $view->view('layout', $data);
