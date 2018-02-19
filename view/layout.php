@@ -99,7 +99,7 @@ if (!isset($_ENV['site_name'])) {
                 </ul>
             </div>
             <?php
-            print '<div class="g9">'.$content.'</div>';
+            print '<div class="g6">'.$content.'</div>';
             ?>
         </div>
         <div class="r">
