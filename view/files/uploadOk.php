@@ -7,7 +7,7 @@ if ($file['is_image']) {
 <textarea rows="3">
 <div class="center">
     <a href="/images/cover/{$file['name']}" title="Ver o original">
-        <img src="/images/400/{$file['name']}" alt="{$file['name']}">
+        <img src="/images/560/{$file['name']}" alt="{$file['name']}">
     </a><br>
     <small></small>
 </div>

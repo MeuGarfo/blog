@@ -38,7 +38,11 @@ class Images
         if ($server->sourceFileExists($path)) {
             switch ($type) {
                 case 400:
-                $server->outputImage($path, ['w' => 400,'h'=>400, 'fit'=>'max']);
+                $url='/images/560/'.$path;
+                $this->view->redirect($url);
+                break;
+                case 560:
+                $server->outputImage($path, ['w' => 560,'h'=>560, 'fit'=>'max']);
                 break;
                 case 'cover':
                 $server->outputImage($path, ['w' => 1200,'h'=>1200, 'fit'=>'max']);
