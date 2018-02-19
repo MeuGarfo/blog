@@ -13,6 +13,7 @@ $data['content']=<<<heredoc
 <h2>{$post['title']}</h2>
 <div class="content" id="post">
 {$post['content']}
+<p class="left"><small>{$updateLink}{$postCreatedAt}</small></p>
 <h3 class="center">Compartilhar</h3>
 </div>
 heredoc;
