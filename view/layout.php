@@ -99,21 +99,14 @@ if (!isset($_ENV['site_name'])) {
                 </ul>
             </div>
             <?php
-            if ($view->segment()[0]=='signin' || @is_array($user)) {
-                print '<div class="g9">'.$content.'</div>';
-            } else {
-                print '<div class="g6">'.$content.'</div>';
-                print '<div class="g3 center desktop">';
-                print '<iframe class="desktop" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F'.$_ENV['fb_page'].'&tabs=timeline&width=312&height=450&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="312" height="450" style="border:none;overflow:hidden;overflow-y:auto;max-width:100%" scrolling="yes" frameborder="0" allowTransparency="true"></iframe>';
-                print '</div>';
-            }
-                ?>
+            print '<div class="g9">'.$content.'</div>';
+            ?>
+        </div>
+        <div class="r">
+            <div class="g12 center">
+                <p>O código fonte deste blog está no <a href="https://github.com/hackergaucho/blog">Github</a></p>
             </div>
-            <div class="r">
-                <div class="g12 center">
-                    <p>O código fonte deste blog está no <a href="https://github.com/hackergaucho/blog">Github</a></p>
-                </div>
-            </div>
-        </div><!--.c-->
+        </div>
+    </div><!--.c-->
 </body>
 </html>
