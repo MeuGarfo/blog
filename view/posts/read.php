@@ -15,6 +15,7 @@ $data['content']=<<<heredoc
 {$post['content']}
 <p class="right"><small>{$updateLink}{$postCreatedAt}</small></p>
 <div class="center">
+<h3>Dúvidas ou sugestões?</h3>
     <a href="https://facebook.com/groups/{$_ENV['fb_group']}" title="Ir para o Grupo">
         <img src="/images/560/facebook.png" alt="facebook.png">
     </a><br>
@@ -24,7 +25,7 @@ $data['content']=<<<heredoc
     </a>
     </small>
 </div>
-<h3 class="center">Compartilhar</h3>
+<h3 class="center">Gostou? Compartilhe</h3>
 </div>
 heredoc;
 $view->view('layout', $data);
