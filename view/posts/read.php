@@ -16,7 +16,7 @@ $data['content']=<<<heredoc
 <p class="right"><small>{$updateLink}{$postCreatedAt}</small></p>
 <div class="center">
 <p>
-    <a href="/">Ir para a página principal</a>
+    <a href="/">Ir para o início</a>
 </p>
 <h3>Dúvidas ou sugestões?</h3>
     <a href="https://facebook.com/groups/{$_ENV['fb_group']}" title="Ir para o Grupo">
