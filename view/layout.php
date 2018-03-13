@@ -104,7 +104,7 @@ if (!isset($_ENV['site_name'])) {
         </div>
         <div class="r">
             <div class="g12 center">
-                <p>O código fonte deste blog<br>está no <a href="https://github.com/hackergaucho/blog">Github</a></p>
+                <small>O código fonte deste blog<br>está no <a href="https://github.com/hackergaucho/blog">Github</a></small>
             </div>
         </div>
     </div><!--.c-->
