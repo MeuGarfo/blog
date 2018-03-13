@@ -41,8 +41,7 @@ small,small a, .hamburguer{
     margin:0 auto;
 }
 .content img{
-    max-height: 400px;
-    width: 400px;
+    width: 560px;
 }
 .content a:hover img{
     background:#333;

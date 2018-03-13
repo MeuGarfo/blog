@@ -11,7 +11,6 @@ if ($file['is_image']) {
     </a><br>
     <small></small>
 </div>
-Escreva aqui
 </textarea>
 heredoc;
 } else {
