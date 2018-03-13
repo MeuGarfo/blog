@@ -5,7 +5,7 @@
     }
     ?>
     <input type="text" name="title" maxlength="60" id="title" tabindex="1" value="<?php print @$post['title']; ?>" placeholder="Titulo">
-    <input type="text" name="description" tabindex="1" value="<?php print @$post['description']; ?>" placeholder="Descrição">
+    <input type="text" name="description" maxlength="78" tabindex="1" value="<?php print @$post['description']; ?>" placeholder="Descrição">
     <input type="text" name="cover" tabindex="1" value="<?php print @$post['cover']; ?>" placeholder="Imagem de exibição">
     <input type="hidden" name="category_id" value="1">
     <div class="btn-group" id="toolbar">
