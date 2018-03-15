@@ -6,8 +6,8 @@ hr{
     border:none;
     border-top:2px dashed #f6f6f6;
 }
-img{
-    max-width: calc(100% - 20px);
+iframe,img{
+    max-width:calc(100% - 20px);
 }
 input,select{
     margin:0;
@@ -29,6 +29,11 @@ small,small a, .hamburguer{
     display: inline;
     margin:0;
     padding: 0.1em;
+}
+.content iframe,.content img{
+    background:#f6f6f6;
+    padding:10px;
+    text-align:center;
 }
 .content iframe{
     display:block;
@@ -137,12 +142,6 @@ small,small a, .hamburguer{
     overflow-x: auto;
     overflow-y: scroll;
     margin-top: 1em;
-}
-#post iframe,#post img{
-    background:#f6f6f6;
-    padding:10px;
-    max-width:calc(100% - 20px);
-    text-align:center;
 }
 /*fix by http://browserhacks.com*/
 @supports (-moz-appearance:meterbar) {
