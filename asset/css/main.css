@@ -30,12 +30,6 @@ small,small a, .hamburguer{
     margin:0;
     padding: 0.1em;
 }
-.content iframe,.content img{
-    background:#f6f6f6;
-    padding:10px;
-    max-width:calc(100% - 20px);
-    text-align:center;
-}
 .content iframe{
     display:block;
     margin:0 auto;
@@ -143,6 +137,12 @@ small,small a, .hamburguer{
     overflow-x: auto;
     overflow-y: scroll;
     margin-top: 1em;
+}
+#post iframe,#post img{
+    background:#f6f6f6;
+    padding:10px;
+    max-width:calc(100% - 20px);
+    text-align:center;
 }
 /*fix by http://browserhacks.com*/
 @supports (-moz-appearance:meterbar) {
