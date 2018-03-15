@@ -36,9 +36,12 @@ small,small a, .hamburguer{
     max-width:calc(100% - 20px);
     text-align:center;
 }
-.content iframe,.content img{
+.content iframe{
     display:block;
     margin:0 auto;
+}
+.content img{
+    width: 560px;
 }
 .content a:hover img{
     background:#333;
