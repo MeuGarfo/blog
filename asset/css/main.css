@@ -40,10 +40,6 @@ small,small a, .hamburguer{
     display:block;
     margin:0 auto;
 }
-.content img{
-    width: 560px;
-    max-width:calc(100% - 20px);
-}
 .content a:hover img{
     background:#333;
 }
