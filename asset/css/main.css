@@ -42,6 +42,7 @@ small,small a, .hamburguer{
 }
 .content img{
     width: 560px;
+    max-width:calc(100% - 20px);
 }
 .content a:hover img{
     background:#333;
