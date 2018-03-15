@@ -36,7 +36,7 @@ small,small a, .hamburguer{
     max-width:calc(100% - 20px);
     text-align:center;
 }
-.content iframe{
+.content iframe,.content img{
     display:block;
     margin:0 auto;
 }
