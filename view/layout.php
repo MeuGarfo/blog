@@ -17,7 +17,7 @@ if (!isset($_ENV['site_name'])) {
     <meta charset="utf-8">
     <title><?php print $title; ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/asset/bower_components/1k/dist/1k.min.css?2.0.5">
+    <link rel="stylesheet" href="/asset/bower_components/1k/dist/1k.min.css?2.0.6">
     <link rel="stylesheet" href="/asset/css/main.css?0.2.2">
     <script src="/asset/js/main.js?0.1.0"></script>
     <script src="/asset/js/zepto.min.js?1.2.0"></script>
