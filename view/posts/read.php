@@ -27,7 +27,7 @@ $data['content']=<<<heredoc
 <p>
     <a href="/">Início</a>
 </p>
-<h3>Gostou? Compartilhe</h3>
+<h3>Compartilhe este post</h3>
 </div>
 </div>
 heredoc;
