@@ -3,7 +3,7 @@ var showSource=true;
 function editor(command) {
     var editorElm = document.getElementById("editor");
     if(command=="CreateLink"){
-        var url = prompt("Digite o endereÃ§o:", "http://");
+        var url = prompt("Digite o endereço:", "http://");
         if ((url != null) && (url != "")) {
             document.execCommand("CreateLink",false,url);
         }
