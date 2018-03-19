@@ -29,5 +29,12 @@ $data['content']=<<<heredoc
 <h3>Compartilhe este post</h3>
 </div>
 </div>
+<script>
+$( document ).ready(function() {
+    $("a.group").fancybox({
+        'cyclic'    :   true
+    });
+});
+</script>
 heredoc;
 $view->view('layout', $data);
