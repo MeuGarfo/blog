@@ -6,7 +6,7 @@ if ($file['is_image']) {
 <p><a href="/files/?create">Enviar outro arquivo</a></p>
 <textarea rows="3">
 <div class="center">
-    <a href="/images/cover/{$file['name']}" title="Ver o original">
+    <a class="group" rel="group" href="/images/cover/{$file['name']}" title="{$file['name']}">
         <img src="/images/560/{$file['name']}" alt="{$file['name']}">
     </a><br>
     <small></small>

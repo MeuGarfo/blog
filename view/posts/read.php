@@ -32,7 +32,8 @@ $data['content']=<<<heredoc
 <script>
 $( document ).ready(function() {
     $("a.group").fancybox({
-        'cyclic'    :   true
+        'cyclic'    :   true,
+        'titleShow' :   true
     });
 });
 </script>
