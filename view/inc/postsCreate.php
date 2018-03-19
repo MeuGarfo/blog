@@ -38,9 +38,9 @@
     </div>
 </form>
 <script type="text/javascript">
-$(function(){
+$( document ).ready(function() {
     $('#title').focus();
-    $('#postCreate').on('submit',function(){
+    $('#postCreate').submit(function(){
         if(!showSource){
             editor('html');
         }

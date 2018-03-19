@@ -21,8 +21,8 @@ if (!isset($_ENV['site_name'])) {
     <link rel="stylesheet" href="/asset/css/main.css?0.2.5">
     <link rel="stylesheet" href="/asset/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
     <script src="/asset/js/jquery1.4.min.js"></script>
-    <script type="text/javascript" src="/asset/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
     <script src="/asset/js/main.js?0.1.0"></script>
+    <script type="text/javascript" src="/asset/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed/" />
     <meta property="og:site_name" content="<?php print $_ENV['site_name']; ?>">
     <meta property="og:title" content="<?php print $title; ?>">
