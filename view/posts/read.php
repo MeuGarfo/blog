@@ -15,8 +15,8 @@ $data['content']=<<<heredoc
 {$post['content']}
 <p class="right"><small>{$updateLink}{$postCreatedAt}</small></p>
 <div class="center">
-    <a href="https://facebook.com/groups/{$_ENV['fb_group']}" title="Ir para o Grupo">
-        <img src="/images/560/facebook.png" alt="facebook.png" width="360" height="100" style="width:360px;height:auto;">
+    <a href="https://facebook.com/{$_ENV['fb_page']}" title="Ir para a Página">
+        <img src="/images/560/curtir.png" alt="Ir para a Página" width="560" height="172" style="width:560px;height:auto;">
     </a><br>
     <small>
     <a href="https://facebook.com/groups/{$_ENV['fb_group']}">

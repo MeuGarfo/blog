@@ -31,7 +31,7 @@ small,small a, .hamburguer{
     padding: 0.1em;
 }
 .content iframe,.content img{
-    background:#f6f6f6;
+    background:white;
     padding:10px;
     text-align:center;
 }
@@ -43,7 +43,7 @@ small,small a, .hamburguer{
     width: 560px;
 }
 .content a:hover img{
-    background:#333;
+    background:#f6f6f6;
 }
 .green{
     color:green;
