@@ -19,8 +19,8 @@ $data['content']=<<<heredoc
         <img src="/images/560/curtir.png" alt="Ir para a Página" width="560" height="172" style="width:560px;height:auto;">
     </a><br>
     <small>
-    <a href="https://facebook.com/groups/{$_ENV['fb_group']}">
-        https://facebook.com/groups/{$_ENV['fb_group']}
+    <a href="https://facebook.com/groups/{$_ENV['fb_page']}">
+        Ir para página no Facebook
     </a>
     </small>
 <p>
