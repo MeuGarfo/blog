@@ -30,6 +30,9 @@ small,small a, .hamburguer{
     margin:0;
     padding: 0.1em;
 }
+.center{
+    margin-bottom: 10px;
+}
 .content iframe,.content img{
     background:white;
     padding:10px;
