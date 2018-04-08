@@ -32,7 +32,7 @@ class Feeds
         ->url($siteUrl)
         ->feedUrl($feedUrl)
         ->language($siteLanguage)
-        ->pubDate(strtotime('Tue, 21 Aug 2012 19:50:37 +0900'))
+        //->pubDate(strtotime('Tue, 21 Aug 2012 19:50:37 +0900'))
         ->ttl(60)
         ->appendTo($feed);
         $where['AND']=[
