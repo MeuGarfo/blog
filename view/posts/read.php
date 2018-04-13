@@ -13,7 +13,7 @@ $data['content']=<<<heredoc
 <h2>{$post['title']}</h2>
 <div class="center">
 <h3>Compartilhe</h3>
-<div class="center addshare"></div>
+<div id="addshare"></div>
 </div>
 <div class="content" id="post">
 {$post['content']}
