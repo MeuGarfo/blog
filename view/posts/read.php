@@ -11,7 +11,6 @@ $postCreatedAt=ucfirst($postCreatedAt);
 $data['content']=<<<heredoc
 <p class="center"><small>{$updateLink}{$postCreatedAt}</small></p>
 <h2 class="center">{$post['title']}</h2>
-<p class="center"><small>Compartilhe</small></p>
 <div id="addshare" class="center"></div>
 <div class="content" id="post">
 {$post['content']}
