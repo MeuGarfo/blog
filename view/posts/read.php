@@ -10,7 +10,7 @@ $postCreatedAt=strftime("%d/%b/%Y %H:%M:%S", $post['created_at']);
 $postCreatedAt=ucfirst($postCreatedAt);
 $data['content']=<<<heredoc
 <p class="right"><small>{$updateLink}{$postCreatedAt}</small></p>
-<h2>{$post['title']}</h2>
+<h2 class="center">{$post['title']}</h2>
 <div id="addshare" class="center"></div>
 <div class="content" id="post">
 {$post['content']}
