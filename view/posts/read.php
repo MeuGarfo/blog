@@ -13,7 +13,7 @@ $data['content']=<<<heredoc
 <h2>{$post['title']}</h2>
 <div class="center">
 <h3>Compartilhe</h3>
-<div class="share"></div>
+<div class="addshare">&nbsp;</div>
 </div>
 <div class="content" id="post">
 {$post['content']}
@@ -23,7 +23,7 @@ $data['content']=<<<heredoc
         <img src="/images/560/curtir.png" alt="Ir para a Página" width="560" height="172" style="width:560px;height:auto;">
     </a>
 <h3>Compartilhe</h3>
-<div class="share"></div>
+<div class="addshare">&nbsp;</div>
 <h3>Deixe seu comentário</h3>
 <div id="disqus_thread"></div>
 <script>
