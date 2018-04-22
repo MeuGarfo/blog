@@ -82,10 +82,10 @@ class Posts
         $data['view']=$this->view;
         /*RULEs*/
         if (is_numeric($this->id) && $data['post'] && @$data['post']['online']>'0') {
-            if ($this->slug==$data['post']['slug']) {
+            if (urldecode($this->slug)==$data['post']['slug']) {
                 $this->view->out('posts/read', $data);
             } else {
-                $url='/posts/'.$data['post']['slug'].'/'.$data['post']['id'];
+                $url='/posts/'.urlencode($data['post']['slug']).'/'.$data['post']['id'];
                 $this->view->redirect($url);
             }
         } else {
