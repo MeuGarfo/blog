@@ -1,7 +1,7 @@
 <?php
 $data['title']=$post['title'];
 $updateLink='';
-$shareLink='/posts/'.$post['slug'].'/'.$post['id'];
+$shareLink='/posts/'.urlencode($post['slug']).'/'.$post['id'];
 if ($user) {
     $url=$shareLink.'?update';
     $updateLink='<a href="'.$url.'">Editar</a> | ';
