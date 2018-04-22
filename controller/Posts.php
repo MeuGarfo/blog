@@ -156,9 +156,9 @@ class Posts
             }
             $this->db->update('posts', $post, $where);
             if ($post['online']=='1') {
-                $url='/posts/'.$post['slug'].'/'.$post['id'];
+                $url='/posts/'.urlencode($post['slug']).'/'.$post['id'];
             } else {
-                $url='/posts/'.$post['slug'].'/'.$post['id'].'/?update';
+                $url='/posts/'.urlencode($post['slug']).'/'.$post['id'].'/?update';
             }
             $this->view->redirect($url);
         } else {
