@@ -19,7 +19,6 @@ $data['content']=<<<heredoc
     <a href="https://facebook.com/{$_ENV['fb_page']}" title="Ir para a Página" target="_blank">
         <img src="/images/560/curtir.png" alt="Ir para a Página" width="560" height="172" style="width:560px;height:auto;">
     </a>
-<h3>Deixe seu comentário</h3>
 <div id="disqus_thread"></div>
 <script>
 
