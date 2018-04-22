@@ -1,4 +1,4 @@
-<form action="/posts/?<?php print $method; ?>" method="post" id="postCreate">
+<form action="/posts/?<?php print $method; ?>" method="post" id="postCreate" enctype="multipart/form-data">
     <?php
     if ($method=='update') {
         print '<input type="hidden" name="id" value="'.$post['id'].'" />';
