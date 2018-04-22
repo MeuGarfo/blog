@@ -5,7 +5,7 @@
 if (isset($posts) && is_array($posts) && count($posts)>0) {
     print '<ul id="myUL">';
     foreach ($posts as $post) {
-        $postRead='/posts/'.$post['slug'].'/'.$post['id'];
+        $postRead='/posts/'.urlencode($post['slug']).'/'.$post['id'];
         $postUpdate=$postRead.'?update';
         $postDelete='javascript:postDelete(\''.$post['id'].'\',\''.$post['title'].'\');';
         print '<li>';
