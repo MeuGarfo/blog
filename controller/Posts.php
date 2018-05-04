@@ -131,9 +131,9 @@ class Posts
             $this->db->insert('posts', $post);
             $id=$this->db->id();
             if ($post['online']=='1') {
-                $url='/posts/'.$post['slug'].'/'.$id;
+                $url='/posts/'.urlencode($post['slug']).'/'.$id;
             } else {
-                $url='/posts/'.$post['slug'].'/'.$id.'?update';
+                $url='/posts/'.urlencode($post['slug']).'/'.$id.'?update';
             }
             $data['view']->redirect($url);
         } else {
