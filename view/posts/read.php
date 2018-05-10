@@ -19,27 +19,6 @@ $data['content']=<<<heredoc
     <a href="https://facebook.com/{$_ENV['fb_page']}" title="Ir para a Página" target="_blank">
         <img src="/images/560/curtir.png" alt="Ir para a Página" width="560" height="172" style="width:560px;height:auto;">
     </a>
-<div id="disqus_thread"></div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://hackergaucho.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Por favor, habilite o JavaScript para visualizar os <a href="https://disqus.com/?ref_noscript">comentários do Disqus</a></noscript>
-                           
 </div>
 </div>
 <script>
