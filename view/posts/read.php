@@ -15,11 +15,6 @@ $data['content']=<<<heredoc
 <div class="content" id="post">
 {$post['content']}
 <p class="right"><small>{$updateLink}{$postCreatedAt}</small></p>
-<div class="center">
-    <a href="https://facebook.com/{$_ENV['fb_page']}" title="Ir para a Página" target="_blank">
-        <img src="/images/560/curtir.png" alt="Ir para a Página" width="560" height="172" style="width:560px;height:auto;">
-    </a>
-</div>
 </div>
 <script>
 $( document ).ready(function() {
