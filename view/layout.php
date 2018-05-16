@@ -62,7 +62,7 @@ if (!isset($_ENV['site_name'])) {
     <div class="c">
         <div class="r">
             <div class="g12 center">
-                <h1><?php print $_ENV['site_name'];?></h1>
+                <a href="/"><h1><?php print $_ENV['site_name'];?></h1></a>
             </div>
         </div>
         <div class="r">
