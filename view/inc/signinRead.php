@@ -1,7 +1,7 @@
 <div class="r">
-    <div class="g4"></div>
-    <div class="g5 center">
-        <h2>Entrar</h2>
+    <div class="g3"></div>
+    <div class="g3">
+        <h2>Login</h2>
         <?php
         if (isset($error)) {
             print '<p id="error"><b>Erro:</b> Dados incorretos</p>';
