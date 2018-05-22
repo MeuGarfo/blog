@@ -18,7 +18,7 @@ if (!isset($_ENV['site_name'])) {
     <title><?php print $title; ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/asset/bower_components/1k/dist/1k.min.css?2.0.8">
-    <link rel="stylesheet" href="/asset/css/main.css?0.4.0">
+    <link rel="stylesheet" href="/asset/css/main.css?0.4.1">
     <link rel="stylesheet" href="/asset/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
     <script src="/asset/js/jquery1.4.min.js"></script>
     <script src="/asset/js/main.js?0.1.0"></script>
