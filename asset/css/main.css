@@ -175,3 +175,40 @@ small,small a, .hamburguer{
         display: none;
     }
 }
+/*medium*/
+h1,h2,h3,h4{
+    font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+}
+h1{
+    color: rgba(0, 0, 0, 0.8);
+    font-feature-settings: "liga";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -1.11667px;
+    line-height: 41.6px;
+    margin-bottom: 0px;
+    margin-left: -2.5px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-wrap: break-word;
+    text-rendering: optimizelegibility;
+    visibility: visible;
+}
+p,li,td,.content{
+    font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+    font-feature-settings: "liga";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.1833px;
+}
+p {
+    clearleftcolor: rgba(0, 0, 0, 0.8);
+    font-feature-settings: "liga";
+    letter-spacing: -0.0666667px;
+    margin:14px 0;
+    overflow-wrap: break-word;
+    text-rendering: optimizelegibility;
+    visibility: visible;
+}
