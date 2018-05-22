@@ -57,6 +57,10 @@ small,small a, .hamburguer{
 .hide{
     display: none;
 }
+.input-block{
+    display: block;
+    width: 100%;
+}
 .left{
     text-align:left;
 }

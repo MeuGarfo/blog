@@ -1,6 +1,6 @@
 <div class="r">
-    <div class="g3"></div>
-    <div class="g4 center">
+    <div class="g4"></div>
+    <div class="g5 center">
         <h2>Entrar</h2>
         <?php
         if (isset($error)) {
@@ -17,7 +17,7 @@
                 }
                 ?>
             </label>
-            <input type="email" name="email" id="email" required>
+            <input class="input-block" type="email" name="email" id="email" required>
             <label for="password">
                 <?php
                 if (isset($error)) {
@@ -27,7 +27,7 @@
                 }
                 ?>
             </label>
-            <input type="password" name="password" id="password" required pattern=".{8,}" title="8 caracteres no mínimo">
+            <input  class="input-block" type="password" name="password" id="password" required pattern=".{8,}" title="8 caracteres no mínimo">
             <button type="submit">Entrar</button>
             <script type="text/javascript">
             /*FUNCTIONs*/
