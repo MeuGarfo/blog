@@ -4,7 +4,7 @@ a:hover{
 }
 hr{
     border:none;
-    border-top:2px solid #f6f6f6;
+    border-top:2px solid gray;
 }
 iframe,img{
     max-width:calc(100% - 20px);
