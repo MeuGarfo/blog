@@ -11,10 +11,6 @@ $postCreatedAt=ucfirst($postCreatedAt);
 $data['content']=<<<heredoc
 <p><small>{$updateLink}{$postCreatedAt}</small></p>
 <h2>{$post['title']}</h2>
-<!-- Start Audima Widget Injection -->
-<div id="audimaWidget"></div>
-<script src="//audio.audima.co/audima-widget.js"></script>
-<!-- End Audima Widget Injection -->
 <div class="content" id="post">
 {$post['content']}
 <p class="right"><small>{$updateLink}{$postCreatedAt}</small></p>
