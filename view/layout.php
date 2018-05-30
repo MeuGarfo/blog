@@ -17,12 +17,12 @@ if (!isset($_ENV['site_name'])) {
     <meta charset="utf-8">
     <title><?php print $title; ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/asset/bower_components/1k/dist/1k.min.css?2.0.8">
-    <link rel="stylesheet" href="/asset/css/main.css?0.4.3">
-    <link rel="stylesheet" href="/asset/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
-    <script src="/asset/js/jquery1.4.min.js"></script>
-    <script src="/asset/js/main.js?0.1.0"></script>
-    <script type="text/javascript" src="/asset/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <link rel="stylesheet" href="/asset/bower_components/1k/dist/1k.min.css?2.0.9">
+    <link rel="stylesheet" href="/asset/css/main.css?0.4.4">
+    <link rel="stylesheet" href="/asset/fancybox/jquery.fancybox-1.3.4.css?0.1.0" type="text/css" media="screen" />
+    <script src="/asset/js/jquery1.4.min.js?0.1.0"></script>
+    <script src="/asset/js/main.js?0.1.1"></script>
+    <script type="text/javascript" src="/asset/fancybox/jquery.fancybox-1.3.4.pack.js?0.1.0"></script>
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed/" />
     <meta property="og:site_name" content="<?php print $_ENV['site_name']; ?>">
     <meta property="og:title" content="<?php print $title; ?>">
