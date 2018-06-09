@@ -24,4 +24,4 @@ $( document ).ready(function() {
 });
 </script>
 heredoc;
-$view->view('layout', $data);
+$view->view('layout2', $data);
